@@ -1,0 +1,114 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: auto;
+  margin: 16px;
+  /* background: #00264a; */
+  border-radius: 10px;
+}
+.logo img{
+  padding-left: 50px;
+}
+.ant-layout {
+  min-height: 100vh;
+}
+.ant-layout-sider {
+  flex: 0 0 250px !important;
+  max-width: 250px !important;
+  min-width: 250px !important;
+  width: 250px !important;
+}
+.ant-layout-sider-collapsed {
+  flex: 0 0 80px !important;
+  max-width: 80px !important;
+  min-width: 80px !important;
+  width: 80px !important;
+}
+.sm-logo {
+  display: none;
+}
+
+.sm-logo span{
+  color: rgb(150, 150, 150);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.ant-layout-sider-collapsed .sm-logo {
+  display: block;
+}
+.ant-layout-sider-collapsed .lg-logo {
+  display: none;
+}
+.header-card{
+  display: flex;
+  justify-content: end;
+  margin-top: 7px;
+}
+.profile-card{
+  display: flex;
+  height: 50px;
+  width: 300px;
+  gap: 10px;
+}
+.profile-card img{
+  border-radius: 30px;
+}
+.profile-card span{
+  font-weight: bold;
+
+}
+.description{
+  display: flex;
+}
+.div-logout{
+  margin-top: 320px;
+}
+.btn-logout{
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn-logout img{
+  width: 20px;
+  margin-bottom: 4px;
+  margin-right: 10px;
+}
+main {
+  height: 85vh;
+  overflow-y: scroll;
+}
+
+.row-div{
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.div-pagnation{
+  margin-top: 100px;
+}
+.line-graph{
+  height: 50vh;
+  background-color: rgb(224, 224, 224);
+  border-radius: 15px;
+}
+.pie-chart{
+  height: 50vh;
+  background-color:rgb(224, 224, 224) ;
+  border-radius: 15px;
+}
