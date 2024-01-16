@@ -1,8 +1,6 @@
 # Reactmachinetask
 Statboard
 
-<h1>Authenticated URL Shortener</h1>
-
 <p>
 This project involves creating a dashboard that displays graphs and tables.</p>
 
